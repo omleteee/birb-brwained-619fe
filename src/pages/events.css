@@ -1,0 +1,19 @@
+/* Add to about.css or index.css */
+.events-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.event-card {
+  background: #7a9471;
+  color: #f5f2e8;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(122, 148, 113, 0.15);
+  padding: 2rem;
+  min-width: 250px;
+  max-width: 350px;
+  flex: 1 1 300px;
+}
