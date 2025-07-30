@@ -1,49 +1,47 @@
-import * as React from "react"
+import React from "react"
 import { Link } from "gatsby"
 
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-const NotFoundPage = () => {
-  return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
+const NotFoundPage = () => (
+  <div style={{
+    fontFamily: 'Itim',
+    backgroundColor: '#f5f2e8',
+    minHeight: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    color: '#2c2c2c'
+  }}>
+    <div>
+      <h1 style={{ fontSize: '4rem', marginBottom: '1rem', color: '#7a9471' }}>404</h1>
+      <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Page Not Found</h2>
+      <p style={{ fontSize: '1.2rem', marginBottom: '2rem', opacity: 0.7 }}>
+        Looks like this birb has flown away!
       </p>
-    </main>
-  )
-}
+      <Link 
+        to="/" 
+        style={{
+          color: '#7a9471',
+          textDecoration: 'none',
+          fontSize: '1.1rem',
+          padding: '0.5rem 1rem',
+          border: '2px solid #7a9471',
+          borderRadius: '4px',
+          transition: 'all 0.3s ease'
+        }}
+        onMouseOver={(e) => {
+          e.target.style.backgroundColor = '#7a9471';
+          e.target.style.color = 'white';
+        }}
+        onMouseOut={(e) => {
+          e.target.style.backgroundColor = 'transparent';
+          e.target.style.color = '#7a9471';
+        }}
+      >
+        Return to Nest
+      </Link>
+    </div>
+  </div>
+)
 
 export default NotFoundPage
-
-export const Head = () => <title>Not found</title>
