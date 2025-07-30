@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import "./about.css"
 import "./index.css"
 import { StaticImage } from "gatsby-plugin-image"
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 const IndexPage = () => {
   return (
     <div className="page-container">
@@ -71,4 +73,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>About - Meet Our Team!</title>
+export const Head = () => <title>Events - Where You Can Find Us!</title>
