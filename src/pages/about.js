@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import "./about.css"
 import "./index.css"
 import { StaticImage } from "gatsby-plugin-image"
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 const IndexPage = () => {
   return (
     <div className="page-container">
@@ -67,7 +69,15 @@ const IndexPage = () => {
                 <p>Co-Founder of Bird Brwained, Artist</p>
               </div>
             </div>
-
+              <div className="artist-card">
+              <div className="artist-avatar">
+                <StaticImage src="../images/stebar.png" alt="Artist Avatar" className="artist-avatar-image3"/>
+                </div>
+              <div className="artist-info">
+                <h3>Stebar</h3>
+                <p>Artist, Money Manager</p>
+                </div>
+                </div>
             <div className="artist-card">
               <div className="artist-avatar">
                 <StaticImage src="../images/yurp.jpg" alt="Artist Avatar" className="artist-avatar-image2"/>
@@ -96,8 +106,26 @@ const IndexPage = () => {
                 <h3>zander</h3>
                 <p>Website Dev</p>
               </div>
-          </div>
-          </div>
+              </div>
+            <div className="artist-card">
+              <div className="artist-avatar">
+                <StaticImage src="../images/doot.jpg" alt="Artist Avatar" className="artist-avatar-image2"/>
+                </div>
+              <div className="artist-info">
+                <h3>Doot</h3>
+                <p>Support staff, 3d printing manufacturer</p>
+                </div>
+                </div>
+                          <div className="artist-card">
+              <div className="artist-avatar">
+                <StaticImage src="../images/swank.png" alt="Artist Avatar" className="artist-avatar-image2"/>
+                </div>
+              <div className="artist-info">
+                <h3>Swank</h3>
+                <p>Configured a Discord Bot</p>
+                </div>
+                </div>
+            </div>
 
 
         </section>
