@@ -96,7 +96,6 @@ const IndexPage = () => {
                 <h3>Perry!</h3>
                 <p>Multi Media Artists, Animator, Manager</p>
               </div>
-            
             </div>
             <div className="artist-card">
               <div className="artist-avatar">
@@ -116,7 +115,7 @@ const IndexPage = () => {
                 <p>Support staff, 3d printing manufacturer</p>
                 </div>
                 </div>
-                          <div className="artist-card">
+              <div className="artist-card">
               <div className="artist-avatar">
                 <StaticImage src="../images/swank.png" alt="Artist Avatar" className="artist-avatar-image2"/>
                 </div>
