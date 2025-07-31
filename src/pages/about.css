@@ -184,7 +184,7 @@ body {
 
 .artist-avatar > .artist-avatar-image3{
  position: absolute;
- transform: translateX(-15%);
+ transform: translateX(-14%);
  width:200px;
  height:200px;
  top:-50px;
