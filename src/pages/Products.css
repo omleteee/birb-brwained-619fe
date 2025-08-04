@@ -21,12 +21,13 @@
 }
 
 .product-image {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-  border-radius: 12px;
-  background: #fff;
-  flex-shrink: 0;
+  max-width: 200px;   /* Adjust as needed */
+  max-height: 200px;  /* Adjust as needed */
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Prevents stretching */
+  display: block;
+  margin: 0 auto;
 }
 
 .product-info {
@@ -65,4 +66,5 @@
   background: #fff;
   object-fit: contain;
 }
+
 
