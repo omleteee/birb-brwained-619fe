@@ -63,6 +63,8 @@ main {
   height: 700px;
   padding: 5px;
   transition: transform 0.3s ease;
+  background: transparent; 
+  display: block; 
 }
 
 .logo-image:hover {
@@ -94,6 +96,7 @@ main {
   top:0;
   left:0;
   animation: fade 20s ease-in-out infinite alternate;
+  background: transparent; 
 }
 
 .background-image:nth-child(1) {
@@ -142,7 +145,9 @@ main {
 /* Navigation */
 .main-nav {
   position: absolute;
-  top:65%;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   gap: 2rem;
