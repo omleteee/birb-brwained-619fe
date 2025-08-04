@@ -31,7 +31,7 @@ const IndexPage = () => (
             <Link to="/about" className="nav-link">About</Link>
             <Link to="/underconst" className="nav-link">Collabs</Link>
             <Link to="/events" className="nav-link">Events</Link>
-            <Link to="/products" className="nav-link">Products</Link>
+            <Link to="/Products" className="nav-link">Products</Link>
           </nav>
         </div>
       </div>
