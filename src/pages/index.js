@@ -6,7 +6,10 @@ import "./index.css"
 
 import { StaticImage } from "gatsby-plugin-image"
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 const IndexPage = () => (
+
   <div className="site-wrapper">
     <main>
                   <StaticImage src="../images/quack.png" alt="Birb Brwained Logo" className="background-image"/>
@@ -28,6 +31,7 @@ const IndexPage = () => (
             <Link to="/about" className="nav-link">About</Link>
             <Link to="/underconst" className="nav-link">Collabs</Link>
             <Link to="/events" className="nav-link">Events</Link>
+            <Link to="/products" className="nav-link">Products</Link>
           </nav>
         </div>
       </div>
