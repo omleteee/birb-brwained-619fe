@@ -26,7 +26,7 @@ const IndexPage = () => (
             <p className="tagline">A Flock of Artists</p>
           </div>
           <nav className="main-nav">
-            <Link to="/underconst" className="nav-link">Socials</Link>
+            <Link to="https://birbbbwained.carrd.co/" className="nav-link">Socials</Link>
             <Link to="/underconst" className="nav-link">Commissions</Link>
             <Link to="/about" className="nav-link">About</Link>
             <Link to="/underconst" className="nav-link">Collabs</Link>
