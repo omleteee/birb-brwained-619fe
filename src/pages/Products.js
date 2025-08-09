@@ -40,7 +40,7 @@ const ProductsPage = () => {
       <nav className="navigation">
         <div className="nav-links">
           <Link to="/" className="nav-link">Home</Link>
-          <Link to="/underconst" className="nav-link">Socials</Link>
+          <Link to="https://birbbbwained.carrd.co/" className="nav-link">Socials</Link>
           <Link to="/underconst" className="nav-link">Collabs</Link>
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/events" className="nav-link">Events</Link>
@@ -146,3 +146,4 @@ const ProductsPage = () => {
 export default ProductsPage
 
 export const Head = () => <title>Products - Birb Brwained</title>
+
