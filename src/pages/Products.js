@@ -8,7 +8,6 @@ const productImages = {
   keychains: [
     "/images/keychain1.jpg",
     "/images/keychain2.jpg",
-    "/images/keychain3.jpg"
   ],
   charms: [
     "/images/charm1.png",
@@ -18,7 +17,10 @@ const productImages = {
   prints: [
     "/images/print1.png",
     "/images/print2.jpeg"
-  ]
+  ],
+  bookmarks: [
+    "/images/bookmark1.png",
+  ],
 }
 
 const ProductsPage = () => {
@@ -118,6 +120,18 @@ const ProductsPage = () => {
               <div className="product-price">$7.00</div>
             </div>
           </div>
+          <div className="product-card horizontal">
+            <img
+              src={productImages.bookmarks[0]}
+              alt="Bookmarks"
+              className="product-image"
+            />
+            <div className="product-info">
+              <h2>Bookmarks</h2>
+              <p>Engraved wooden bookmark, painted with an acrylic design</p>
+              <div className="product-price">$10.00</div>
+        </div>
+        </div>
         </div>
       </main>
       <footer className="site-footer">
